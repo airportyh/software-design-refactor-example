@@ -20,17 +20,14 @@ export class RestService {
         return "http://api.sweetdata.com/data/" + model;
     }
 
-    public get(
-        model: string) {
+    public get(model: string) {
         let options: RequestInit = this.commonRequestOptions();
         return fetch(this.urlFor(model), options)
             .then((response) => response.json())
             .then((data) => data[pluralize(model)]);
     }
 
-    public post(
-        model: string, 
-        data: any) {
+    public post(model: string, data: any) {
         let options: RequestInit = this.commonRequestOptions();
         options.body = JSON.stringify(data);
         return fetch(this.urlFor(model), options)

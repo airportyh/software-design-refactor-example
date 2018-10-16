@@ -6,8 +6,7 @@ export class AlertService {
 
 export class RestService {
 
-    public get(
-        model: string) {
+    public get(model: string) {
         const url = "http://api.sweetdata.com/data/" + model;
         let options: RequestInit = {
             method: "GET",
@@ -19,9 +18,7 @@ export class RestService {
             .then((response) => response.json());
     }
 
-    public post(
-        model: string, 
-        data: any) {
+    public post(model: string, data: any) {
         const url = "http://api.sweetdata.com/data/" + model;
         let options: RequestInit = {
             method: "POST",
