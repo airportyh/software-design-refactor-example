@@ -1,0 +1,21 @@
+GET http://api.sweetdata.com/data/user
+
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "orice",
+            "email": "orice@hotmail.com"
+        },
+        {
+            "id": 2,
+            "username": "joberbrunner",
+            "email": "joberbrunner"
+        },
+        { 
+            "id": 3,
+            "username": "Gwendolyn_Padberg", 
+            "email": "Gwendolyn_Padberg@yahoo.com"
+        }
+    ]
+}

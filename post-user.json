@@ -1,0 +1,10 @@
+POST http://api.sweetdata.com/data/user
+
+{
+    "user": {
+        "id": 114,
+        "username":
+        "Arnaldo.Carroll",
+        "email": "arnaldo.carroll@hotmail.com"
+    }
+}

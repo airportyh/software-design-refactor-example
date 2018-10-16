@@ -1,0 +1,22 @@
+GET http://api.sweetdata.com/data/company
+
+{
+    "companies": [
+        {
+            "id": 1,
+            "name": "Harber Inc", 
+            "tagline": "Vision-oriented attitude-oriented matrices"
+        },
+        {
+            "id": 2,
+            "username": "Buckridge Group", 
+            "tagline": "Synergistic directional implementation"
+        },
+        {
+            "id": 3,
+            "username": "Rosenbaum - Morar",
+            "tagline": "Pre-emptive demand-driven project"
+        }
+    ]
+}
+
